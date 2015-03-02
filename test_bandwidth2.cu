@@ -319,7 +319,11 @@ int main(int argc, char **argv)
   while(size < 4.096 - used_memory_in_GB)
   {
     size = 3*(row_and_col_size*row_and_col_size*4)/1024./1024./1024.;
-    printf("Size in GB: %f",size);
+    printf("\n");
+    printf("--------------------------------------------\n");
+    printf("Allocated GPU memory size in GB: %f\n",size);
+    printf("Used GPU memory by other applications in GB: %f\n",used_memory_in_GB);
+    printf("--------------------------------------------\n");
     bandwidth_test(row_and_col_size, argc, argv);
     row_and_col_size+=256;
   }
