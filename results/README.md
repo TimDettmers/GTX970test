@@ -1,9 +1,9 @@
 ```
 bash>
 rm test_bandwidth1.stdout
-for s in {1..30}; do ./test_bandwidth1.out >> test_bandwidth1.stdout; sleep 1; done
+for s in {1..30}; do ../test_bandwidth1.out >> test_bandwidth1.stdout; sleep 1; done
 grep ^Data test_bandwidth1.stdout \
- | perl -plne's/.*?([\d\.]+).*?([\d\.]+).*/$1\t $2/;' > bandwidth.tsv
+ | perl -plne's/.*?([\d\.]+).*?Bandwidth:\ ([\d\.]+).*/$1\t $2/;' > bandwidth.tsv
 
 R>
 library(ggplot2)
