@@ -21,6 +21,7 @@ void test_bandwidth()
 	printf("The bandwidth should stay be about the same each time:\n");
 	size_t free = 0, total = 0;  
     cudaMemGetInfo(&free,&total);
+    printf("Memory used by OS %f GB\n",used_memory_in_MB/1024.);
     double used_memory_in_MB = (total- free)/1024./1024.;
 	for(int i = 128; i < 4096 - used_memory_in_MB;i+=256 )
 	{
@@ -38,16 +39,16 @@ void test_bandwidth()
 			Add<<<512,512>>>(gpu_data, size);
 		
 
-		cudaDeviceSynchronize();
 		cudaEventRecord(ticktock[1], 0);
 		cudaEventSynchronize(ticktock[1]);
 		cudaEventElapsedTime(&time, ticktock[0], ticktock[1]);
+		cudaDeviceSynchronize();
 
 		time = time/1000.0f; //seconds
 
-		float GB = ((iter*i)/1024.0f);
+		float GB = ((iter*i)/1024.0f); 
 
-		printf("Data size: %f GB + Used memory %f GB; Bandwidth: %f GB/s\n",i/1024.0f,used_memory_in_MB/1024., GB/time);
+		printf("Data size: %f GB; Bandwidth: %f GB/s\n",i/1024.0f, GB/time);
 
 		cudaFree(gpu_data);
 
