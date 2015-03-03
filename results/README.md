@@ -11,3 +11,5 @@ df = read.delim("bandwidth.tsv", col.names=c("size", "bandwidth"))
 df$size = as.factor(df$size)
 ggplot(df, aes(size, bandwidth)) + geom_boxplot() + ggtitle("30 runs of test_bandwidth1")
 ```
+
+![](size_v_bandwidth.png)
