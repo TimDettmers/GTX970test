@@ -8,7 +8,7 @@ __global__ void Add(float *A, int size)
   const int idx = (blockIdx.x * blockDim.x) + threadIdx.x;
 
   for (unsigned int i = idx;i < size; i += numThreads)
-	   A[i] = A[i] + A[i];
+	   A[i] = A[i]+ A[i];
 }
 
 void test_bandwidth()
@@ -19,7 +19,10 @@ void test_bandwidth()
 	cudaEventCreate(&ticktock[1]);
 	int iter = 10;
 	printf("The bandwidth should stay be about the same each time:\n");
-	for(int i = 128; i < 4096;i+=256 )
+	size_t free = 0, total = 0;  
+    cudaMemGetInfo(&free,&total);
+    double used_memory_in_MB = (total- free)/1024./1024.;
+	for(int i = 128; i < 4096 - used_memory_in_MB;i+=256 )
 	{
 		float time = 0.0f;
 		float *gpu_data;
@@ -27,15 +30,15 @@ void test_bandwidth()
 		size_t bytes = size*sizeof(float);
 		cudaMalloc((void**)&gpu_data, bytes);
 		cudaMemset(gpu_data,0,bytes);
-
-		int block_size = (size/512) + 1;
+		
 		cudaEventRecord(ticktock[0], 0);
-		//run multiple iterations to saturate the GPU
+
+		//run multiple iterations to saturate the GPU		
 		for(int j = 0; j < iter; j++)
-			//transposeNaive<<<block_size,512>>>(gpu_data, size);
-			Add<<<block_size,512>>>(gpu_data, size);
+			Add<<<512,512>>>(gpu_data, size);
+		
 
-
+		cudaDeviceSynchronize();
 		cudaEventRecord(ticktock[1], 0);
 		cudaEventSynchronize(ticktock[1]);
 		cudaEventElapsedTime(&time, ticktock[0], ticktock[1]);
@@ -44,11 +47,10 @@ void test_bandwidth()
 
 		float GB = ((iter*i)/1024.0f);
 
-		printf("Data size: %f GB; Bandwidth: %f GB/s\n",i/1024.0f,GB/time);
+		printf("Data size: %f GB + Used memory %f GB; Bandwidth: %f GB/s\n",i/1024.0f,used_memory_in_MB/1024., GB/time);
 
 		cudaFree(gpu_data);
 
-		cudaDeviceSynchronize();
 
 	}
 
@@ -60,4 +62,5 @@ void test_bandwidth()
 int main(int argc, char *argv[])
 {
 	test_bandwidth();
+	return 0;
 }
