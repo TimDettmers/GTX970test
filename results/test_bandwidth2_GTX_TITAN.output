@@ -1,0 +1,119 @@
+--------------------------------------------
+Allocated GPU memory size in GB: 2.980232
+Used GPU memory by other applications in GB: 0.422512
+--------------------------------------------
+
+Device : GeForce GTX TITAN
+Matrix size: 20000 20000, Block size: 32 8, Tile size: 32 32
+dimGrid: 625 625 1. dimBlock: 32 8 1
+                  Routine         Bandwidth (GB/s)
+                     copy              114.02
+       shared memory copy              109.31
+          naive transpose               24.84
+      coalesced transpose               71.06
+  conflict-free transpose              106.84
+
+--------------------------------------------
+Allocated GPU memory size in GB: 3.057014
+Used GPU memory by other applications in GB: 0.422512
+--------------------------------------------
+
+Device : GeForce GTX TITAN
+Matrix size: 20256 20256, Block size: 32 8, Tile size: 32 32
+dimGrid: 633 633 1. dimBlock: 32 8 1
+                  Routine         Bandwidth (GB/s)
+                     copy              111.71
+       shared memory copy              110.16
+          naive transpose               24.87
+      coalesced transpose               71.08
+  conflict-free transpose              108.00
+
+--------------------------------------------
+Allocated GPU memory size in GB: 3.134773
+Used GPU memory by other applications in GB: 0.422512
+--------------------------------------------
+
+Device : GeForce GTX TITAN
+Matrix size: 20512 20512, Block size: 32 8, Tile size: 32 32
+dimGrid: 641 641 1. dimBlock: 32 8 1
+                  Routine         Bandwidth (GB/s)
+                     copy              113.92
+       shared memory copy              108.24
+          naive transpose               24.80
+      coalesced transpose               71.26
+  conflict-free transpose              107.81
+
+--------------------------------------------
+Allocated GPU memory size in GB: 3.213509
+Used GPU memory by other applications in GB: 0.422512
+--------------------------------------------
+
+Device : GeForce GTX TITAN
+Matrix size: 20768 20768, Block size: 32 8, Tile size: 32 32
+dimGrid: 649 649 1. dimBlock: 32 8 1
+                  Routine         Bandwidth (GB/s)
+                     copy              114.47
+       shared memory copy              109.32
+          naive transpose               24.74
+      coalesced transpose               71.54
+  conflict-free transpose              108.21
+
+--------------------------------------------
+Allocated GPU memory size in GB: 3.293221
+Used GPU memory by other applications in GB: 0.422512
+--------------------------------------------
+
+Device : GeForce GTX TITAN
+Matrix size: 21024 21024, Block size: 32 8, Tile size: 32 32
+dimGrid: 657 657 1. dimBlock: 32 8 1
+                  Routine         Bandwidth (GB/s)
+                     copy              113.63
+       shared memory copy              108.56
+          naive transpose               24.66
+      coalesced transpose               71.56
+  conflict-free transpose              107.90
+
+--------------------------------------------
+Allocated GPU memory size in GB: 3.373909
+Used GPU memory by other applications in GB: 0.422512
+--------------------------------------------
+
+Device : GeForce GTX TITAN
+Matrix size: 21280 21280, Block size: 32 8, Tile size: 32 32
+dimGrid: 665 665 1. dimBlock: 32 8 1
+                  Routine         Bandwidth (GB/s)
+                     copy              114.13
+       shared memory copy              109.63
+          naive transpose               24.59
+      coalesced transpose               71.61
+  conflict-free transpose              106.58
+
+--------------------------------------------
+Allocated GPU memory size in GB: 3.455574
+Used GPU memory by other applications in GB: 0.422512
+--------------------------------------------
+
+Device : GeForce GTX TITAN
+Matrix size: 21536 21536, Block size: 32 8, Tile size: 32 32
+dimGrid: 673 673 1. dimBlock: 32 8 1
+                  Routine         Bandwidth (GB/s)
+                     copy              114.26
+       shared memory copy              109.66
+          naive transpose               24.50
+      coalesced transpose               71.61
+  conflict-free transpose              108.00
+
+--------------------------------------------
+Allocated GPU memory size in GB: 3.538216
+Used GPU memory by other applications in GB: 0.422512
+--------------------------------------------
+
+Device : GeForce GTX TITAN
+Matrix size: 21792 21792, Block size: 32 8, Tile size: 32 32
+dimGrid: 681 681 1. dimBlock: 32 8 1
+                  Routine         Bandwidth (GB/s)
+                     copy              114.42
+       shared memory copy              109.08
+          naive transpose               24.39
+      coalesced transpose               71.56
+  conflict-free transpose              108.06
