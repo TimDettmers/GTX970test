@@ -20,9 +20,9 @@ void test_bandwidth()
 	int iter = 10;
 	printf("The bandwidth should stay be about the same each time:\n");
 	size_t free = 0, total = 0;  
-    cudaMemGetInfo(&free,&total);
-    printf("Memory used by OS %f GB\n",used_memory_in_MB/1024.);
-    double used_memory_in_MB = (total- free)/1024./1024.;
+	cudaMemGetInfo(&free,&total);
+	double used_memory_in_MB = (total- free)/1024./1024.;
+	printf("Memory used by OS %f GB\n",used_memory_in_MB/1024.);
 	for(int i = 128; i < 4096 - used_memory_in_MB;i+=256 )
 	{
 		float time = 0.0f;

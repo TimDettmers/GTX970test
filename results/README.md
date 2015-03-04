@@ -12,4 +12,15 @@ df$size = as.factor(df$size)
 ggplot(df, aes(size, bandwidth)) + geom_boxplot() + ggtitle("30 runs of test_bandwidth1")
 ```
 
-![](size_v_bandwidth.png)
+### GTX Titan
+
+![](GTX Titan test1.jpg)
+
+### GTX970 arch=compute_35,code=sm_35
+
+![](GTX970._35.png)
+
+### GTX970 arch=compute_50,code=sm_50
+
+![](GTX970._50.png)
+
