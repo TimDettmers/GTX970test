@@ -6,13 +6,14 @@ __global__ void Add(float *A, int size)
 {
   const unsigned int numThreads = blockDim.x * gridDim.x;
   const int idx = (blockIdx.x * blockDim.x) + threadIdx.x;
-
+ 
   for (unsigned int i = idx;i < size; i += numThreads)
 	   A[i] = A[i]+ A[i];
 }
 
 void test_bandwidth()
 {
+	printf("test_bandwith1 \n test_bandwith()\n\n");
 	cudaEvent_t* ticktock;
 	ticktock = (cudaEvent_t*)malloc(2*sizeof(cudaEvent_t));
 	cudaEventCreate(&ticktock[0]);
@@ -21,9 +22,10 @@ void test_bandwidth()
 	printf("The bandwidth should stay be about the same each time:\n");
 	size_t free = 0, total = 0;  
 	cudaMemGetInfo(&free,&total);
+	printf("free memory %lu \n total memory %lu \n\n", free, total);
 	double used_memory_in_MB = (total- free)/1024./1024.;
 	printf("Memory used by OS %f GB\n",used_memory_in_MB/1024.);
-	for(int i = 128; i < 4096 - used_memory_in_MB;i+=256 )
+	for(int i = 128; i < 2048 - used_memory_in_MB;i+=256 ) // not 4096 4G but 2G only
 	{
 		float time = 0.0f;
 		float *gpu_data;
