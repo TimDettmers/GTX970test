@@ -23,7 +23,7 @@ cudaError_t checkCuda(cudaError_t result)
 
   if (result != cudaSuccess) {
     fprintf(stderr, "CUDA Runtime Error: %s\n", cudaGetErrorString(result));
-    assert(result == cudaSuccess);
+    assert(result == cudaSuccess); 
   }
 
   return result;
@@ -312,11 +312,11 @@ void bandwidth_test(int rows_cols, int argc, char **argv)
 int main(int argc, char **argv)
 {
   double size = 0.0;
-  long long row_and_col_size = 20000;
+  long long row_and_col_size = 1024; // may be smaller from 20 000 -> 1024 ok
   size_t free = 0, total = 0;  
   cudaMemGetInfo(&free,&total);
   double used_memory_in_GB = (total- free)/1024./1024./1024.;
-  while(size < 4.096 - used_memory_in_GB)
+  while(size < 2.048 - used_memory_in_GB) // 4.096 is 4G only got 2G
   {
     size = 2*(row_and_col_size*row_and_col_size*4)/1024./1024./1024.;
     printf("\n");

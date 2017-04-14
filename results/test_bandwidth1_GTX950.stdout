@@ -1,0 +1,330 @@
+test_bandwith1 
+ test_bandwith()
+
+The bandwidth should stay be about the same each time:
+free memory 897138688 
+ total memory 2147287040 
+
+Memory used by OS 1.164291 GB
+Data size: 0.125000 GB; Bandwidth: 38.869087 GB/s
+Data size: 0.375000 GB; Bandwidth: 37.534252 GB/s
+Data size: 0.625000 GB; Bandwidth: 37.211735 GB/s
+test_bandwith1 
+ test_bandwith()
+
+The bandwidth should stay be about the same each time:
+free memory 897138688 
+ total memory 2147287040 
+
+Memory used by OS 1.164291 GB
+Data size: 0.125000 GB; Bandwidth: 39.397812 GB/s
+Data size: 0.375000 GB; Bandwidth: 37.985607 GB/s
+Data size: 0.625000 GB; Bandwidth: 37.367882 GB/s
+test_bandwith1 
+ test_bandwith()
+
+The bandwidth should stay be about the same each time:
+free memory 897138688 
+ total memory 2147287040 
+
+Memory used by OS 1.164291 GB
+Data size: 0.125000 GB; Bandwidth: 39.451054 GB/s
+Data size: 0.375000 GB; Bandwidth: 37.720844 GB/s
+Data size: 0.625000 GB; Bandwidth: 37.341484 GB/s
+test_bandwith1 
+ test_bandwith()
+
+The bandwidth should stay be about the same each time:
+free memory 897138688 
+ total memory 2147287040 
+
+Memory used by OS 1.164291 GB
+Data size: 0.125000 GB; Bandwidth: 39.543869 GB/s
+Data size: 0.375000 GB; Bandwidth: 38.020115 GB/s
+Data size: 0.625000 GB; Bandwidth: 37.315380 GB/s
+test_bandwith1 
+ test_bandwith()
+
+The bandwidth should stay be about the same each time:
+free memory 897138688 
+ total memory 2147287040 
+
+Memory used by OS 1.164291 GB
+Data size: 0.125000 GB; Bandwidth: 39.486507 GB/s
+Data size: 0.375000 GB; Bandwidth: 37.857128 GB/s
+Data size: 0.625000 GB; Bandwidth: 37.333599 GB/s
+test_bandwith1 
+ test_bandwith()
+
+The bandwidth should stay be about the same each time:
+free memory 897138688 
+ total memory 2147287040 
+
+Memory used by OS 1.164291 GB
+Data size: 0.125000 GB; Bandwidth: 39.763569 GB/s
+Data size: 0.375000 GB; Bandwidth: 37.931347 GB/s
+Data size: 0.625000 GB; Bandwidth: 37.281597 GB/s
+test_bandwith1 
+ test_bandwith()
+
+The bandwidth should stay be about the same each time:
+free memory 897138688 
+ total memory 2147287040 
+
+Memory used by OS 1.164291 GB
+Data size: 0.125000 GB; Bandwidth: 39.147804 GB/s
+Data size: 0.375000 GB; Bandwidth: 37.921711 GB/s
+Data size: 0.625000 GB; Bandwidth: 37.292675 GB/s
+test_bandwith1 
+ test_bandwith()
+
+The bandwidth should stay be about the same each time:
+free memory 897138688 
+ total memory 2147287040 
+
+Memory used by OS 1.164291 GB
+Data size: 0.125000 GB; Bandwidth: 38.932854 GB/s
+Data size: 0.375000 GB; Bandwidth: 37.973804 GB/s
+Data size: 0.625000 GB; Bandwidth: 37.448891 GB/s
+test_bandwith1 
+ test_bandwith()
+
+The bandwidth should stay be about the same each time:
+free memory 897138688 
+ total memory 2147287040 
+
+Memory used by OS 1.164291 GB
+Data size: 0.125000 GB; Bandwidth: 36.116947 GB/s
+Data size: 0.375000 GB; Bandwidth: 35.054119 GB/s
+Data size: 0.625000 GB; Bandwidth: 34.902802 GB/s
+test_bandwith1 
+ test_bandwith()
+
+The bandwidth should stay be about the same each time:
+free memory 897138688 
+ total memory 2147287040 
+
+Memory used by OS 1.164291 GB
+Data size: 0.125000 GB; Bandwidth: 39.387444 GB/s
+Data size: 0.375000 GB; Bandwidth: 37.789753 GB/s
+Data size: 0.625000 GB; Bandwidth: 37.307976 GB/s
+test_bandwith1 
+ test_bandwith()
+
+The bandwidth should stay be about the same each time:
+free memory 897138688 
+ total memory 2147287040 
+
+Memory used by OS 1.164291 GB
+Data size: 0.125000 GB; Bandwidth: 39.045712 GB/s
+Data size: 0.375000 GB; Bandwidth: 37.916500 GB/s
+Data size: 0.625000 GB; Bandwidth: 37.274063 GB/s
+test_bandwith1 
+ test_bandwith()
+
+The bandwidth should stay be about the same each time:
+free memory 804855808 
+ total memory 2147287040 
+
+Memory used by OS 1.250237 GB
+Data size: 0.125000 GB; Bandwidth: 36.430099 GB/s
+Data size: 0.375000 GB; Bandwidth: 37.773262 GB/s
+Data size: 0.625000 GB; Bandwidth: 36.966022 GB/s
+test_bandwith1 
+ test_bandwith()
+
+The bandwidth should stay be about the same each time:
+free memory 804855808 
+ total memory 2147287040 
+
+Memory used by OS 1.250237 GB
+Data size: 0.125000 GB; Bandwidth: 37.518970 GB/s
+Data size: 0.375000 GB; Bandwidth: 37.428486 GB/s
+Data size: 0.625000 GB; Bandwidth: 37.374405 GB/s
+test_bandwith1 
+ test_bandwith()
+
+The bandwidth should stay be about the same each time:
+free memory 804855808 
+ total memory 2147287040 
+
+Memory used by OS 1.250237 GB
+Data size: 0.125000 GB; Bandwidth: 39.111313 GB/s
+Data size: 0.375000 GB; Bandwidth: 37.830597 GB/s
+Data size: 0.625000 GB; Bandwidth: 37.174538 GB/s
+test_bandwith1 
+ test_bandwith()
+
+The bandwidth should stay be about the same each time:
+free memory 804855808 
+ total memory 2147287040 
+
+Memory used by OS 1.250237 GB
+Data size: 0.125000 GB; Bandwidth: 38.870979 GB/s
+Data size: 0.375000 GB; Bandwidth: 38.149780 GB/s
+Data size: 0.625000 GB; Bandwidth: 37.143513 GB/s
+test_bandwith1 
+ test_bandwith()
+
+The bandwidth should stay be about the same each time:
+free memory 804855808 
+ total memory 2147287040 
+
+Memory used by OS 1.250237 GB
+Data size: 0.125000 GB; Bandwidth: 39.860756 GB/s
+Data size: 0.375000 GB; Bandwidth: 37.707676 GB/s
+Data size: 0.625000 GB; Bandwidth: 37.292141 GB/s
+test_bandwith1 
+ test_bandwith()
+
+The bandwidth should stay be about the same each time:
+free memory 804855808 
+ total memory 2147287040 
+
+Memory used by OS 1.250237 GB
+Data size: 0.125000 GB; Bandwidth: 39.784588 GB/s
+Data size: 0.375000 GB; Bandwidth: 37.982887 GB/s
+Data size: 0.625000 GB; Bandwidth: 37.192612 GB/s
+test_bandwith1 
+ test_bandwith()
+
+The bandwidth should stay be about the same each time:
+free memory 804855808 
+ total memory 2147287040 
+
+Memory used by OS 1.250237 GB
+Data size: 0.125000 GB; Bandwidth: 39.128273 GB/s
+Data size: 0.375000 GB; Bandwidth: 37.811348 GB/s
+Data size: 0.625000 GB; Bandwidth: 37.261860 GB/s
+test_bandwith1 
+ test_bandwith()
+
+The bandwidth should stay be about the same each time:
+free memory 804855808 
+ total memory 2147287040 
+
+Memory used by OS 1.250237 GB
+Data size: 0.125000 GB; Bandwidth: 39.743542 GB/s
+Data size: 0.375000 GB; Bandwidth: 37.785915 GB/s
+Data size: 0.625000 GB; Bandwidth: 37.323219 GB/s
+test_bandwith1 
+ test_bandwith()
+
+The bandwidth should stay be about the same each time:
+free memory 804855808 
+ total memory 2147287040 
+
+Memory used by OS 1.250237 GB
+Data size: 0.125000 GB; Bandwidth: 39.728550 GB/s
+Data size: 0.375000 GB; Bandwidth: 37.986553 GB/s
+Data size: 0.625000 GB; Bandwidth: 37.411350 GB/s
+test_bandwith1 
+ test_bandwith()
+
+The bandwidth should stay be about the same each time:
+free memory 804855808 
+ total memory 2147287040 
+
+Memory used by OS 1.250237 GB
+Data size: 0.125000 GB; Bandwidth: 38.706207 GB/s
+Data size: 0.375000 GB; Bandwidth: 37.855419 GB/s
+Data size: 0.625000 GB; Bandwidth: 37.334667 GB/s
+test_bandwith1 
+ test_bandwith()
+
+The bandwidth should stay be about the same each time:
+free memory 804855808 
+ total memory 2147287040 
+
+Memory used by OS 1.250237 GB
+Data size: 0.125000 GB; Bandwidth: 39.574715 GB/s
+Data size: 0.375000 GB; Bandwidth: 37.945511 GB/s
+Data size: 0.625000 GB; Bandwidth: 37.358334 GB/s
+test_bandwith1 
+ test_bandwith()
+
+The bandwidth should stay be about the same each time:
+free memory 804855808 
+ total memory 2147287040 
+
+Memory used by OS 1.250237 GB
+Data size: 0.125000 GB; Bandwidth: 38.914040 GB/s
+Data size: 0.375000 GB; Bandwidth: 37.891022 GB/s
+Data size: 0.625000 GB; Bandwidth: 37.303879 GB/s
+test_bandwith1 
+ test_bandwith()
+
+The bandwidth should stay be about the same each time:
+free memory 804855808 
+ total memory 2147287040 
+
+Memory used by OS 1.250237 GB
+Data size: 0.125000 GB; Bandwidth: 39.416023 GB/s
+Data size: 0.375000 GB; Bandwidth: 37.896717 GB/s
+Data size: 0.625000 GB; Bandwidth: 37.412434 GB/s
+test_bandwith1 
+ test_bandwith()
+
+The bandwidth should stay be about the same each time:
+free memory 804855808 
+ total memory 2147287040 
+
+Memory used by OS 1.250237 GB
+Data size: 0.125000 GB; Bandwidth: 39.447784 GB/s
+Data size: 0.375000 GB; Bandwidth: 38.127350 GB/s
+Data size: 0.625000 GB; Bandwidth: 37.262642 GB/s
+test_bandwith1 
+ test_bandwith()
+
+The bandwidth should stay be about the same each time:
+free memory 804855808 
+ total memory 2147287040 
+
+Memory used by OS 1.250237 GB
+Data size: 0.125000 GB; Bandwidth: 39.227058 GB/s
+Data size: 0.375000 GB; Bandwidth: 37.629940 GB/s
+Data size: 0.625000 GB; Bandwidth: 37.316357 GB/s
+test_bandwith1 
+ test_bandwith()
+
+The bandwidth should stay be about the same each time:
+free memory 804855808 
+ total memory 2147287040 
+
+Memory used by OS 1.250237 GB
+Data size: 0.125000 GB; Bandwidth: 39.491455 GB/s
+Data size: 0.375000 GB; Bandwidth: 37.966606 GB/s
+Data size: 0.625000 GB; Bandwidth: 37.339653 GB/s
+test_bandwith1 
+ test_bandwith()
+
+The bandwidth should stay be about the same each time:
+free memory 804855808 
+ total memory 2147287040 
+
+Memory used by OS 1.250237 GB
+Data size: 0.125000 GB; Bandwidth: 39.309086 GB/s
+Data size: 0.375000 GB; Bandwidth: 37.758949 GB/s
+Data size: 0.625000 GB; Bandwidth: 35.878979 GB/s
+test_bandwith1 
+ test_bandwith()
+
+The bandwidth should stay be about the same each time:
+free memory 804855808 
+ total memory 2147287040 
+
+Memory used by OS 1.250237 GB
+Data size: 0.125000 GB; Bandwidth: 39.043682 GB/s
+Data size: 0.375000 GB; Bandwidth: 38.136433 GB/s
+Data size: 0.625000 GB; Bandwidth: 37.057640 GB/s
+test_bandwith1 
+ test_bandwith()
+
+The bandwidth should stay be about the same each time:
+free memory 804855808 
+ total memory 2147287040 
+
+Memory used by OS 1.250237 GB
+Data size: 0.125000 GB; Bandwidth: 39.437832 GB/s
+Data size: 0.375000 GB; Bandwidth: 37.036633 GB/s
+Data size: 0.625000 GB; Bandwidth: 36.883099 GB/s
